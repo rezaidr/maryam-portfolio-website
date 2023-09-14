@@ -1,0 +1,273 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  padding-top: 5rem;
+  box-sizing: border-box;
+}
+
+/* navigasi */
+nav {
+  background-color: #ffc0cb;
+}
+
+nav .offcanvas .offcanvas-header {
+  background-color: #ffc0cb;
+}
+
+nav .offcanvas {
+  background-color: #ffc0cb73;
+}
+
+nav ul li {
+  margin-left: 4rem;
+  text-align: center;
+}
+
+nav .offcanvas-body ul li a {
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+
+nav .offcanvas-body ul li a:hover {
+  color: white !important;
+  border-bottom: 2px solid white;
+}
+
+/* section home */
+.home {
+  display: flex;
+}
+
+.home .hero-aside {
+  position: relative;
+  width: 100%;
+}
+
+.home .box {
+  position: absolute;
+  bottom: 0;
+  width: 65%;
+  height: 80%;
+  background-color: rgb(253, 211, 217);
+}
+
+.home .hero-image {
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+  width: 65%;
+  height: 90%;
+  background-image: url(image/p1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home .main-home {
+  width: 100%;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+
+.home .main-home article {
+  width: 95%;
+  padding-bottom: 2rem;
+}
+
+.home .main-home a {
+  text-decoration: none;
+  color: black;
+  width: fit-content;
+  padding: 0.3rem 1rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.home .main-home a:hover {
+  color: white;
+  background-color: pink;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.575);
+}
+
+/* portfolio section */
+.portfolio {
+  position: relative;
+}
+
+.portfolio .bg-box {
+  background-color: #ffc0cb;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.portfolio .container-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio .card {
+  width: 25%;
+  height: 25rem;
+  border: 2px solid rgba(119, 119, 119, 0.596);
+  margin: auto auto 2rem auto;
+}
+
+.portfolio .card .hero-card {
+  width: 100%;
+  height: 8.5rem;
+  background-color: bisque;
+  overflow: hidden;
+}
+
+.portfolio .card header {
+  height: 4rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.596);
+}
+
+.portfolio .card header h6 {
+  font-size: 0.8rem;
+}
+
+.portfolio .card article {
+  height: 9.5rem;
+  padding: 0.5rem 1rem 0 2rem;
+  overflow: auto;
+}
+
+.portfolio .card article p {
+  text-indent: 2rem;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.portfolio .card .link-button {
+  margin: auto 1rem 0.5rem;
+  width: fit-content;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: white;
+  background-color: lightcoral;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+}
+
+.portfolio .card .link-button:hover {
+  background-color: rgb(218, 111, 111);
+}
+
+/* about section */
+.about {
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .bg-box {
+  width: 70%;
+  height: 50%;
+  background-color: pink;
+  padding-top: 3rem;
+  z-index: -1;
+}
+
+.about .profile-image {
+  width: 21rem;
+  height: 15rem;
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  left: auto;
+}
+
+.about .description {
+  width: 60%;
+  padding-top: 4rem;
+}
+
+.about .description p {
+  text-align: justify;
+}
+
+/* contact section */
+.contact {
+  position: relative;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  gap: 1rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: pink;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 0.6rem;
+}
+
+.contact form input {
+  background-color: rgb(255, 232, 235);
+  border-radius: 1rem;
+  text-indent: 1rem;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.contact form textarea {
+  border-radius: 0.5rem;
+  text-indent: 1rem;
+  background-color: rgb(255, 232, 235);
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.contact form button {
+  color: white;
+  width: 5rem;
+  border-radius: 1rem;
+  background-color: lightcoral;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.contact form button:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  background-color: rgb(211, 98, 98);
+  box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+}
+
+.contact .icons a {
+  color: lightcoral;
+}
+
+.contact .icons a:hover {
+  color: goldenrod;
+}
+
+.contact .icons i {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.contact footer {
+  background-color: #ff94a6;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}

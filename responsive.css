@@ -1,0 +1,142 @@
+/* media query */
+
+/* tablet */
+@media (max-width: 991.98px) {
+  .home .main-home article p {
+    font-size: 0.8rem;
+  }
+
+  .portfolio {
+    height: max-content;
+  }
+
+  .portfolio .card {
+    width: 20rem;
+  }
+
+  .about .profile-image {
+    width: 40%;
+    height: 9.5rem;
+    top: 25%;
+    left: auto;
+  }
+
+  /* contact */
+
+  .contact {
+    height: 150vh;
+  }
+}
+
+/* landscape phone */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+  .home .hero-aside {
+    height: 50%;
+  }
+
+  .home .main-home {
+    height: 50%;
+    padding-top: 2rem;
+  }
+
+  /* portfolio */
+  .portfolio {
+    height: max-content;
+  }
+
+  .portfolio .container-article {
+    flex-direction: column !important;
+    flex-wrap: inherit !important;
+  }
+
+  .portfolio .card {
+    width: 80%;
+    height: 70%;
+  }
+
+  .about .profile-image {
+    width: 70%;
+    height: 25rem;
+    top: 8rem;
+  }
+
+  /* contact */
+  .contact {
+    height: 100vh;
+  }
+  .contact form {
+    margin-top: 5rem;
+  }
+}
+/* phone */
+@media (max-width: 575.98px) {
+  /* home */
+  .home {
+    flex-direction: column;
+  }
+  .home .hero-aside {
+    height: 50%;
+  }
+
+  .home .main-home {
+    height: 50%;
+    padding-top: 2rem;
+  }
+
+  .home .main-home article {
+    width: 90%;
+    padding-bottom: 2rem;
+  }
+
+  /* portfolio */
+  .portfolio {
+    height: max-content;
+  }
+
+  .portfolio .container-article {
+    flex-direction: column !important;
+    flex-wrap: inherit !important;
+  }
+
+  .portfolio .card {
+    width: 90% !important;
+    height: 70%;
+    border: 2px solid rgba(119, 119, 119, 0.596);
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  /* about */
+
+  .about .bg-box {
+    /* width: 70%; */
+    height: 40%;
+    /* background-color: pink;
+  padding-top: 3rem; */
+  }
+
+  .about .profile-image {
+    width: 60%;
+    height: 30%;
+    /* overflow: hidden;
+    position: absolute; */
+    top: 15%;
+    left: 21%;
+  }
+
+  /* contact */
+
+  .contact {
+    height: 100vh;
+  }
+
+  .contact form {
+    width: 80%;
+  }
+
+  .contact footer {
+    height: 80px;
+  }
+}
